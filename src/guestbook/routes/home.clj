@@ -29,4 +29,5 @@
 
 (defroutes home-routes
   (GET "/" [] (home-page))
+  (POST "/" [name message] (save-message name message))
   (GET "/about" [] (about-page)))
