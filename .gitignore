@@ -9,3 +9,7 @@ pom.xml
 /.env
 *.log
 /.#README.md
+/resources/public/site.db.h2.db
+/resources/public/site.db.trace.db
+/src/guestbook/#handler.clj#
+/src/guestbook/.#handler.clj
