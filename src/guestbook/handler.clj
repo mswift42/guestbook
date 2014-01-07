@@ -32,7 +32,6 @@
     {:path "guestbook.log" :max-size (* 512 1024) :backlog 10})
 
   (if (env :selmer-dev) (parser/cache-off!))
-  
   (if-not (schema/initialized?)
     (schema/create-tables))
   (timbre/info "guestbook started successfully"))

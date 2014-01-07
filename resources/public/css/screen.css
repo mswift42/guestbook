@@ -8,3 +8,14 @@ body {
 .error {
     color: red;
 }
+
+form {
+    width: 200px;
+    clear: both;
+}
+form input {
+    width: 50%;
+    clear: both;
+}
+
+
